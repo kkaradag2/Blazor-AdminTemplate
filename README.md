@@ -11,4 +11,8 @@ Orginal HTML source project
 
 ### Screenshot
 
-![Preview](/preview.PNG "Screenshot")
+![Preview](/images/preview.PNG "Screenshot")
+
+![REsponsive](/images/responsive.png "Screenshot")
+
+
