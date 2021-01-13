@@ -11,4 +11,4 @@ Orginal HTML source project
 
 ### Screenshot
 
-![Preview](kkaradag2/Blazor-AdminTemplate/blob/main/preview.PNG "Screenshot")
+![Preview](/preview.PNG "Screenshot")
