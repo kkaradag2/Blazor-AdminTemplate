@@ -5,32 +5,38 @@
     Layout = null;
 }
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blazor-AdminTemplate</title>
-    <base href="~/" />
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link href="css/site.css" rel="stylesheet" />
-</head>
-<body>
-    <app>
-        <component type="typeof(App)" render-mode="ServerPrerendered" />
-    </app>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>Data Tables</title>
 
-    <div id="blazor-error-ui">
-        <environment include="Staging,Production">
-            An error has occurred. This application may no longer respond until reloaded.
-        </environment>
-        <environment include="Development">
-            An unhandled exception has occurred. See browser dev tools for details.
-        </environment>
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
+    <link href="/styles/custom.css" rel="stylesheet">
+    <link href="/styles/style.css" rel="stylesheet">
+</head>
+<body id="mainBody" class="app">
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+    <script>
+        window.addEventListener('load', function load() {
+            const loader = document.getElementById('loader');
+            setTimeout(function () {
+                loader.classList.add('fadeOut');
+            }, 300);
+        });</script>
+
+    <div>
+        <app><component type="typeof(App)" render-mode="ServerPrerendered" /></app>
     </div>
 
     <script src="_framework/blazor.server.js"></script>
+    <script src="/scripts/vendor.js"></script>
+    <script src="/scripts/bundle.js"></script>
+    <script src="/scripts/custom.js"></script>
+
 </body>
 </html>
