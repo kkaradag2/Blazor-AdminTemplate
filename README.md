@@ -1,7 +1,7 @@
 # Blazor-AdminTemplate
 Implement **Adminator** Admin Template to Blazor
 
-Merged with **Adminator** HTML5 admin template Blazor project.
+Merged with **Adminator** HTML5 admin template to Blazor project.
 
 Orginal HTML source project 
 
