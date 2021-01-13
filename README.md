@@ -13,6 +13,6 @@ Orginal HTML source project
 
 ![Preview](/images/preview.PNG "Screenshot")
 
-![REsponsive](/images/responsive.png "Screenshot")
+![Responsive](/images/Responsive.png "Screenshot")
 
 
